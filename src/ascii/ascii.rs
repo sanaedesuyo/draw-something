@@ -55,7 +55,7 @@ mod tests {
 
     #[test]
     fn generate_ascii_picture_from_file() {
-        let file_name = "test/test_pic.txt";
+        let file_name = "/assets/test/test_pic.txt";
 
         let ascii_picture = ASCIIPicture::read_from_file(file_name).unwrap();
         let correct_ascii_picture = ASCIIPicture::new(
